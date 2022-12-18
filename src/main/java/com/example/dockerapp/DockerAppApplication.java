@@ -11,7 +11,7 @@ public class DockerAppApplication {
 
 	@GetMapping("/hi")
 	public String test() {
-		return "Hi";
+		return "Spring boot project running on Kubernetes cluster......";
 	}
 
 	public static void main(String[] args) {
